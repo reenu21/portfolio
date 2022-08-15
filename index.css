@@ -256,7 +256,7 @@ margin-top: 50px;
 
 
 
-/* Start of timeline media query */
+/* Start of about me media query */
 
 
 @media screen and (max-width:928px) {
@@ -266,15 +266,21 @@ margin-top: 50px;
 
     .description{
         flex-basis: auto;
-        text-align:center
+        text-align:center;
+        margin-top: 4rem ;
     }
 
     .my-image{
         margin-right: 0px;
         margin-bottom: 0px;
+        margin-top: 4rem;
     }
     
 }
+
+/* End of about me media query */
+
+/* Start of timeline media query */
 
 @media screen and (min-width:704px) {
 
@@ -336,3 +342,16 @@ margin-top: 50px;
 /**End of timeline media query*/
 
 
+/* Start of skills media query */
+
+@media screen and (max-width:875px) {
+    .icons-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons-container div{
+        margin-bottom: 20px;
+    }
+    
+}
+/* End of skills media query */

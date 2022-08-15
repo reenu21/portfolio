@@ -207,12 +207,12 @@ margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     
 }
 
 .icons-container div:hover{
-   padding:10px;
+   transform: translate(1);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -255,6 +255,10 @@ margin-top: 50px;
 
 }
 
+.contact-icons a:hover{
+    transform: scale(1.2);
+    border:2px solid #ff8553;
+}
 .contact-icons a img{
     width: 100%;
 }
@@ -359,9 +363,7 @@ margin-top: 50px;
         flex-direction: column;
         align-items: center;
     }
-    .icons-container div{
-        margin-bottom: 20px;
-    }
+    
     
 }
 /* End of skills media query */

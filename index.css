@@ -34,20 +34,15 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: yourAnimation 3s ease 0s 1 normal none;
+    animation: aboutMeContainerAnimation 3s ease 0s 1 normal none;
     
 }
-@keyframes yourAnimation {
+@keyframes aboutMeContainerAnimation {
     0.0%{
         opacity: 0;
     }
-    /* 40.4%{
+    100%{
         opacity: 1;
-        transform: skew(22deg);
-    } */
-    97.1%{
-        opacity: 1;
-        transform: skew(0deg);
     }
 }
 
